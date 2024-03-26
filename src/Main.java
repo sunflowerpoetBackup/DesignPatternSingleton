@@ -10,12 +10,11 @@ public class Main {
         User user1 = User.getInstance();
         User user2 = User.getInstance();
 
-        System.out.println("Dati del primo USER: " + user1); //singleton
+        System.out.println("FIRST user data: " + user1); //singleton
 
-        user2.setNome("Margherita");
-        user2.setAge(29);
+        user2.setNome("Anna");
+        user2.setAge(23);
 
-        System.out.println("Dati del secondo USER: " + user2);
-        // System.out.println("Dati del primo USER: " + user1);; // ma se creo altro user mi cambia il primo
+        System.out.println("SECOND user data: " + user2);
     }
 }
